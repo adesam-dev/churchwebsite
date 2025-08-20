@@ -1,0 +1,72 @@
+.give {
+    max-width: 400px;
+    margin: 40px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.give h2 {
+    margin-bottom: 20px;
+    color: #222;
+}
+
+.give-options {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.give-options button {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background: #f5f5f5;
+    cursor: pointer;
+}
+
+.give-options .active {
+    background: #004080;
+    color: #fff;
+    border: none;
+}
+
+.give-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    text-align: left;
+}
+
+.give-form label {
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.give-form input {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.donate-btn {
+    background: orange;
+    color: #fff;
+    border: none;
+    padding: 12px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.donate-btn:hover {
+    background: darkorange;
+}
+
+.secure {
+    margin-top: 15px;
+    font-size: 12px;
+    color: gray;
+}
